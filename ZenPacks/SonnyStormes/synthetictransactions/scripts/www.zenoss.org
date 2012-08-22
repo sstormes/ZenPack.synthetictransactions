@@ -1,0 +1,4 @@
+go http://www.zenoss.org
+follow http://community.zenoss.org/community/documentation
+find "Zenoss Wiki"
+code 200
