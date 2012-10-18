@@ -1,0 +1,5 @@
+/dist
+/.project
+/.pydevproject
+/ZenPacks.SonnyStormes.synthetictransactions.egg-info*
+/build/*
