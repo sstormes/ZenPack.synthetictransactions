@@ -2,14 +2,14 @@
 # These variables are overwritten by Zenoss when the ZenPack is exported
 # or saved.  Do not modify them directly here.
 # NB: PACKAGES is deprecated
-NAME = ''
-VERSION = '1.0'
-AUTHOR = ''
-LICENSE = ''
-NAMESPACE_PACKAGES = []
-PACKAGES = []
-INSTALL_REQUIRES = []
-COMPAT_ZENOSS_VERS = ''
+NAME = 'ZenPacks.SonnyStormes.synthetictransactions'
+VERSION = '1.1'
+AUTHOR = 'Sonny Stormes'
+LICENSE = 'GPLv2'
+NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.SonnyStormes']
+PACKAGES = ['ZenPacks', 'ZenPacks.SonnyStormes', 'ZenPacks.SonnyStormes.synthetictransactions']
+INSTALL_REQUIRES = [ ]
+COMPAT_ZENOSS_VERS = '>=2.4'
 PREV_ZENPACK_NAME = ''
 # STOP_REPLACEMENTS
 ################################
@@ -56,7 +56,7 @@ setup(
     # list, so any manual additions should be added to the end.  Things will
     # go poorly if this line is broken into multiple lines or modified to
     # dramatically.
-    install_requires = INSTALL_REQUIRES,
+    install_requires = INSTALL_REQUIRES, 
 
     # Every ZenPack egg must define exactly one zenoss.zenpacks entry point
     # of this form.
